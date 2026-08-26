@@ -1,0 +1,93 @@
+{
+  "surum": 1,
+  "guncellenme": "2026-08-26",
+  "kaynak": "193 sayili GVK md. 21, 74, 86, 88, 89, 94, 103 + Gelir Vergisi Genel Tebligleri",
+
+  "yillar": {
+    "2025": {
+      "tebligNo": "329",
+      "taksitAylari": [3, 7],
+      "durum": "dogrulandi",
+
+      "tarife": {
+        "ucretDisi": [
+          { "ustSinir": 158000, "oran": 0.15 },
+          { "ustSinir": 330000, "oran": 0.20 },
+          { "ustSinir": 800000, "oran": 0.27 },
+          { "ustSinir": 4300000, "oran": 0.35 },
+          { "ustSinir": null, "oran": 0.40 }
+        ],
+        "ucret": [
+          { "ustSinir": 158000, "oran": 0.15 },
+          { "ustSinir": 330000, "oran": 0.20 },
+          { "ustSinir": 1200000, "oran": 0.27 },
+          { "ustSinir": 4300000, "oran": 0.35 },
+          { "ustSinir": null, "oran": 0.40 }
+        ]
+      },
+
+      "gmsi": {
+        "konutIstisnasi": 47000,
+        "istisnaGelirSiniri": 1200000,
+        "stopajliBeyanSiniri": 330000,
+        "tevkifatsizBeyanSiniri": 18000,
+        "goturuGiderOrani": 0.15,
+        "isyeriStopajOrani": 0.20,
+        "iktisapBedeliIndirimOrani": 0.05,
+        "iktisapBedeliIndirimYilSayisi": 5,
+        "konutFaizGideriIndirilebilir": false,
+        "zararDevirYili": 5
+      },
+
+      "indirimTavanlari": {
+        "egitimSaglikOrani": 0.10,
+        "sahisSigortaOrani": 0.15,
+        "bagisOrani": 0.05,
+        "sahisSigortaYillikAsgariUcret": 312066
+      }
+    },
+
+    "2026": {
+      "tebligNo": "332",
+      "taksitAylari": [3, 7],
+      "durum": "dogrulandi",
+
+      "tarife": {
+        "ucretDisi": [
+          { "ustSinir": 190000, "oran": 0.15 },
+          { "ustSinir": 400000, "oran": 0.20 },
+          { "ustSinir": 1000000, "oran": 0.27 },
+          { "ustSinir": 5300000, "oran": 0.35 },
+          { "ustSinir": null, "oran": 0.40 }
+        ],
+        "ucret": [
+          { "ustSinir": 190000, "oran": 0.15 },
+          { "ustSinir": 400000, "oran": 0.20 },
+          { "ustSinir": 1500000, "oran": 0.27 },
+          { "ustSinir": 5300000, "oran": 0.35 },
+          { "ustSinir": null, "oran": 0.40 }
+        ]
+      },
+
+      "gmsi": {
+        "konutIstisnasi": 58000,
+        "istisnaGelirSiniri": 1500000,
+        "stopajliBeyanSiniri": 400000,
+        "tevkifatsizBeyanSiniri": 22000,
+        "goturuGiderOrani": 0.15,
+        "isyeriStopajOrani": 0.20,
+        "iktisapBedeliIndirimOrani": 0.05,
+        "iktisapBedeliIndirimYilSayisi": 5,
+        "konutFaizGideriIndirilebilir": false,
+        "zararDevirYili": 5
+      },
+
+      "indirimTavanlari": {
+        "egitimSaglikOrani": 0.10,
+        "sahisSigortaOrani": 0.15,
+        "bagisOrani": 0.05,
+        "sahisSigortaYillikAsgariUcret": null
+      }
+    }
+  }
+}
